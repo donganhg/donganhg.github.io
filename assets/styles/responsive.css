@@ -1,0 +1,129 @@
+@media (max-width: 1000px){
+    .logo{
+        margin: 10px;
+    }
+    main{
+        width: 100%;
+    }
+    .atas{
+        flex-direction: column;
+    }
+    .konten{
+        flex-basis: 100%;
+    }
+    aside{
+        flex-basis: 100%;
+        border-radius: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    aside .gambar img{
+        border-radius: 0;
+        width: 100%;
+    }
+    .bawah{
+        padding: 30px 80px;
+    }
+    .gitar{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .gitar:hover{
+        position: static;
+        box-shadow: none;
+    }
+    .gitar .kiri{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+        text-align: center;
+        position: relative;
+    }
+    .gitar .kiri:hover{
+        position: relative;
+        bottom: 2px;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0, 0.6);
+    }
+    .gitar .kiri img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .gitar .kanan{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+        padding: 15px;
+    }
+
+    .gitar .kanan:hover{
+        position: relative;
+        bottom: 2px;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0, 0.6);
+    }
+
+    .piano{
+        flex-direction: column-reverse;
+        box-shadow: none;
+    }
+
+    .piano:hover{
+        position: static;
+        box-shadow: none;
+    }
+    .piano .kiri{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+        padding: 10px;
+    }
+
+    .piano .kiri:hover{
+        position: relative;
+        bottom: 2px;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0, 0.6);
+    }
+
+    .piano .kanan img{
+        width: 100%;
+        height: 100%;
+    }
+    .piano .kanan{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+        text-align: center;
+    }
+    .piano .kanan:hover{
+        position: relative;
+        bottom: 2px;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0, 0.6);
+    }
+    nav{
+        display: none;
+    }
+    .menu-icon{
+        font-size: 35px;
+        text-align: right;
+        margin-top: 20px;
+        visibility: visible;
+    }
+    .menu-icon:hover{
+        cursor: pointer;
+    }
+
+    .bar-wrapper{
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 670px){
+    aside{
+        flex-direction: column;
+    }
+    .gambar img{
+        width: 100%;
+    }
+    .piano{
+        flex-direction: column-reverse;
+    }
+    header, .bar-wrapper, .atas, .bawah, footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .konten h1{
+        font-size: 40px;
+    }
+}
